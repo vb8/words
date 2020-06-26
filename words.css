@@ -1,0 +1,31 @@
+.column {
+    display: grid;
+    flex-wrap: wrap;
+}
+
+div {
+    padding: 10px;
+}
+
+.column1 {
+    background-color: rgba(83, 189, 118, 0.226);
+    box-sizing: border-box;
+    border: indigo;
+}
+
+.column2 {
+    background-color: rgba(255, 99, 71, 0.226);
+}
+
+.column3 {
+    background-color: rgba(28, 173, 125, 0.096);
+}
+
+.column4 {
+    background-color: rgba(114, 31, 170, 0.212);
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

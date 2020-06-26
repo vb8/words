@@ -1,0 +1,29 @@
+@media screen and (max-width:1500px) {
+    .column2 {
+        background-color: rgb(28, 173, 125);
+    }
+    .page {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .column2 {
+        background-color: rgb(28, 173, 125);
+    }
+    .page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .column2 {
+        background-color: rgb(28, 173, 125);
+    }
+    .page {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
